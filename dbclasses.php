@@ -29,6 +29,7 @@ class classes
       }
 
       return $output;
+      
   }
   public function qrcode($code){
     include "BarcodeQR.php";
